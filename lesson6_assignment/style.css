@@ -7,7 +7,7 @@ body {
 	font-size: 14px;
 	line-height: 1.5em;
 	color: #FFF;
-	background-color: #000;
+	background-color: #fff;
 	padding: 0 50px;
 }
 
@@ -15,10 +15,11 @@ body {
 p, li, td {
 	letter-spacing: 0.1em;
 	color: #fff;
+	padding:0px 40px;
 }
 h1 {
 	font-size: 26px;
-	padding: 4px 4px;
+	padding: 4px 10px;
 	font-variant: small-caps;
 	letter-spacing: .3em;
 	line-height: 1.5em;
@@ -64,6 +65,7 @@ ol {
 /* table styles -------------------------------------- */
 table {
 	border: solid #3988C5 2px;
+	margin:0px 40px;
 }
 td {
 	padding: 6px;
@@ -83,10 +85,79 @@ hr {
 
 img {
 	border: solid #015A3C 3px;
+	margin:0px 40px;
 }
 
 iframe {
 	border: solid #015A3C 1px;
 	padding: 5px;
 	margin: 5px;
+}
+
+/* div styles -------------------*/
+
+#contianer {
+	width: 1200px; 
+	margin: 0 auto; 
+	background-color: #000; 
+	overflow: hidden; 
+}
+#content { 
+	width: 900px;
+	float: left; 
+	padding-bottom: 40px;
+}
+#sidebari { 
+	width: 271px; 
+	float: left;
+	margin-top: 640px;
+	margin-right: 10px;
+	margin-left:17px;
+	background: #3988C5;
+	border: 1px solid #000;
+	border-radius: 12px;
+	box-shadow: 8px 8px 5px #888888;
+}
+#sidebari img{
+	border:none;
+	margin:10px 15px;
+	width:90%;
+}
+#sidebarm { 
+	width: 270px; 
+	float: left;
+	margin-top: 60px;
+	margin-right: 10px;
+	margin-left:17px;
+	background: #3988C5;
+	border: 1px solid #000;
+	border-radius: 12px;
+	box-shadow: 8px 8px 5px #888888;
+}
+#sidebarm img{
+	border:none;
+	margin:10px 15px;
+	width:90%;
+}
+#header {
+	width: 100%;
+	border-bottom: 1px solid #E9C04A;
+	background-color: #015A3C;
+}
+#header p {
+	padding: 0px 10px;
+}
+#header img{
+	border:none;
+	margin:0;
+}
+#footer { 
+	clear: both;
+	width: 100%; 
+	background-color: #015A3C;
+	border-top: 2px solid #E9C04A;
+}
+#footer p {
+	margin: 0;
+	padding: 40px 0px;
 }
