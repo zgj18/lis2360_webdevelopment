@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+/* CSS Document created by Zoe Jenkins, March 25th, 2019*/
+
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	color: #FFF;
+	background-color: #fff;
+	padding: 0 50px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #fff;
+	padding:0px 40px;
+}
+h1 {
+	font-size: 26px;
+	padding: 4px 10px;
+	font-variant: small-caps;
+	letter-spacing: .3em;
+	line-height: 1.5em;
+}
+h2 {
+	font-size: 20px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	background-color: #3988C5;
+}
+h3 {
+	font-size: 18px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-color: #3988C5;
+	padding: 4px 0;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #E9C04A;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #E9C04A;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFE751;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	margin-left: 10px;
+}
+ol {
+	margin-left: 12px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #3988C5 2px;
+	margin:0px 40px;
+}
+td {
+	padding: 6px;
+	border: solid #3988C5 2px;
+}
+th {
+	background-color: #3988C5;
+	text-align: center;
+	padding: 6px;
+	border: solid #3988C5 2px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #015A3C 3px;
+}
+
+img {
+	border: solid #015A3C 3px;
+	margin:0px 40px;
+}
+
+iframe {
+	border: solid #015A3C 1px;
+	padding: 5px;
+	margin: 5px;
+}
+
+/* div styles -------------------*/
+
+#contianer {
+	width: 1200px; 
+	margin: 0 auto; 
+	background-color: #000; 
+	overflow: hidden; 
+}
+#content { 
+	width: 900px;
+	float: left; 
+	padding-bottom: 40px;
+}
+#sidebari { 
+	width: 271px; 
+	float: left;
+	margin-top: 640px;
+	margin-right: 10px;
+	margin-left:17px;
+	background: #3988C5;
+	border: 1px solid #000;
+	border-radius: 12px;
+	box-shadow: 8px 8px 5px #888888;
+}
+#sidebari img{
+	border:none;
+	margin:10px 15px;
+	width:90%;
+}
+#sidebarm { 
+	width: 270px; 
+	float: left;
+	margin-top: 60px;
+	margin-right: 10px;
+	margin-left:17px;
+	background: #3988C5;
+	border: 1px solid #000;
+	border-radius: 12px;
+	box-shadow: 8px 8px 5px #888888;
+}
+#sidebarm img{
+	border:none;
+	margin:10px 15px;
+	width:90%;
+}
+#header {
+	width: 100%;
+	border-bottom: 1px solid #E9C04A;
+	background-color: #015A3C;
+}
+#header p {
+	padding: 0px 10px;
+}
+#header img{
+	border:none;
+	margin:0;
+}
+#footer { 
+	clear: both;
+	width: 100%; 
+	background-color: #015A3C;
+	border-top: 2px solid #E9C04A;
+}
+#footer p {
+	margin: 0;
+	padding: 40px 0px;
+}
